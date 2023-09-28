@@ -48,7 +48,6 @@ const handleCart = () => {
                     </div>
                 </div>
             </div>
-
         </header>
     );
 }

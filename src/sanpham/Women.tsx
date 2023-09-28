@@ -25,7 +25,7 @@ const Women = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: products.length > 3 ? 3 : products.length,
     slidesToScroll: 1,
   };
 

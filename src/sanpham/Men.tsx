@@ -27,7 +27,7 @@ const Men = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: products.length > 3 ? 3 : products.length,
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
 

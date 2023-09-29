@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/admin.css";
+import { Link } from "react-router-dom";
 
 const AdminLogin: React.FC = () => {
   return (
@@ -44,7 +45,7 @@ const AdminLogin: React.FC = () => {
           </div>
         </div>
         <div className="button">
-          <button>Đăng nhập</button>
+           <Link to={`/dashboard`}><button>Đăng nhập</button></Link>
         </div>
       </form>
     </div>

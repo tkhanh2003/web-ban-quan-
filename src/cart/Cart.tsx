@@ -40,7 +40,7 @@ function Cart() {
                 <th>Số lượng</th>
                 <th>Đơn giá</th>
                 <th>Thành tiền</th>
-                <th>Chỉnh sửa</th>
+                <th>Hành động</th>
               </tr>
             </thead>
             <tbody id="datarow">
@@ -56,9 +56,9 @@ function Cart() {
                     />
                   </td>
                   <td className="text-center">{product.Ten_san_pham}</td>
-                  <td className="text-center">{quantity}</td>
-                  <td className="text-center">{product.Gia}</td>
-                  <td className="text-center">{product.Gia}</td>
+                  <td className="text-center">{quantity}Items</td>
+                  <td className="text-center">{product.Gia}%</td>
+                  <td className="text-center">{product.Gia* quantity}$</td>
                   <td className="text-center">
                     <a
                       id={`delete_${index}`}
